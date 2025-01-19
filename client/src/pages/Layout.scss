@@ -1,0 +1,161 @@
+.layout {
+    // background-color: rgb(169, 227, 236);
+    background-color: #defcf9;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    font-family: 'Arial', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.title {
+    font-size: 3rem;
+    color: #634258;
+    margin: 0;
+    font-weight: 600;
+}
+
+.subtitle {
+    font-size: 2rem;
+    color: #644d5c;
+    margin: 0;
+    font-weight: 600;
+}
+
+.header_title {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.header-image {
+    width: 180px;
+    height: auto;
+    //border-radius: 15px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 30px 0;
+}
+
+.btn {
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    border: 2px solid #c3bef0;
+    /* Blue border */
+    border-radius: 8px;
+    background-color: #c3bef0;
+    /* Blue background */
+    color: white;
+    /* White text */
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s;
+    font-weight: 500;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    background-color: #cca8e9;
+    /* Darker blue on hover */
+    // box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-medic {
+    // border-color: #4CAF50; /* Green border */
+    background-color: #c3bef0;
+    /* Green background */
+}
+
+.btn-medic:hover {
+    background-color: #cca8e9;
+    /* Darker green on hover */
+}
+
+.btn-pacient {
+    border-color: #c3bef0;
+    /* Blue border */
+    background-color: #c3bef0;
+    /* Blue background */
+}
+
+.btn-pacient:hover {
+    background-color: #cca8e9;
+    /* Darker blue on hover */
+}
+
+.btn-boli {
+    border-color: #c3bef0;
+    /* Orange border */
+    background-color: #c3bef0;
+    /* Orange background */
+}
+
+.btn-boli:hover {
+    background-color: #cca8e9;
+    /* Darker orange on hover */
+}
+
+.btn-medicamente {
+    border-color: #c3bef0;
+    /* Pink border */
+    background-color: #c3bef0;
+    /* Pink background */
+}
+
+.btn-medicamente:hover {
+    background-color: #cca8e9;
+    /* Darker pink on hover */
+}
+
+.footer {
+    background: #c3bef0;
+    color: white;
+    text-align: center;
+    padding: 20px 300px;
+    font-size: 1rem;
+    margin-top: 40px;
+    //box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    //border-top: 2px solid #c3bef0;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.footer a:hover {
+    color: white;
+    text-decoration: underline;
+}

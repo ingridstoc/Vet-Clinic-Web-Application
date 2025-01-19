@@ -1,0 +1,61 @@
+body {
+  background-size: cover;
+}
+
+.pacienti {
+   // height: 110vh;
+    background-color: #a9e3ec;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  
+  .card {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+  }
+  
+  h1 {
+    color: red;
+    font-size: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+  
+    input {
+      border: none;
+      border-bottom: 1px solid lightgray;
+      padding: 20px 10px;
+    }
+  
+    button {
+      width: 50%;
+      padding: 10px;
+      border: none;
+      background-color: rgb(27, 142, 160);
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  }
+
+  .space_reduction {
+    width: 250px;
+  }
+
+  .tabela_propietar {
+    margin-left: 10px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
