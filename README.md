@@ -13,14 +13,14 @@ The Vet Clinic Web Application is a full-stack web application designed to strea
 ## Technologies Used
 
 -**Frontend**
-+React.js: Component-based UI development
-+Axios: API communication
-+CSS: Responsive design
+-React.js: Component-based UI development
+-Axios: API communication
+-CSS: Responsive design
 
 -**Backend**
 
-+Node.js & Express.js: Server-side logic
-+MySQL: Relational database for storing clinic records
+-Node.js & Express.js: Server-side logic
+-MySQL: Relational database for storing clinic records
 
 ## Installation & Setup
 
