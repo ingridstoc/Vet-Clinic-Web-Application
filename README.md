@@ -29,6 +29,32 @@ Ensure you have the following installed:
 -Node.js (Latest LTS version)
 -MySQL Server
 
+## Features
+
++ **Patient Management**: Add, edit, delete and view patient records.  
++ **Statistics**: Observe information and statistics about the clinic's patients, consultations, and doctors.  
++ **Doctors & Owner Profiles**: Store and manage information about doctors and pet owners.  
+
+## Technologies Used
+
+- **Frontend**  
+  - React.js: Component-based UI development  
+  - Axios: API communication  
+  - CSS: Responsive design  
+
+- **Backend**  
+  - Node.js & Express.js: Server-side logic  
+  - MySQL: Relational database for storing clinic records  
+
+## Installation & Setup
+
+## Prerequisites  
+Ensure you have the following installed:  
+- Node.js (Latest LTS version)  
+- MySQL Server  
+
+
+
 ## Backend Setup
 1. Install dependencies:
    ```bash
